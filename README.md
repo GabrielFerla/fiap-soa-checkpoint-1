@@ -10,17 +10,17 @@ mvn spring-boot:run A aplicação será iniciada em http://localhost:8080 🚀
 
 🔹 1. Listar Todos os Pedidos 📌 GET /pedidos
 
-curl -X GET http://localhost:8080/pedidos 🔹 2. Buscar Produto por ID 📌 GET /pedidos/{id} curl -X GET http://localhost:8080/pedidos/1
+curl -X GET http://localhost:8080/pedidos 🔹 2. Buscar Pedido por ID 📌 GET /pedidos/{id} curl -X GET http://localhost:8080/pedidos/1
 
-🔹 3. Criar um Novo Produto 📌 POST /pedidos 📌 Body (JSON): { "clienteNome": "Teclado Gamer", "valorTotal": 250.0 } curl -X POST http://localhost:8080/pedidos -H "Content-Type: application/json" -d '{"clienteNome": "Teclado Gamer", "valorTotal": 250.0}'
+🔹 3. Criar um Novo Pedido 📌 POST /pedidos 📌 Body (JSON): { "clienteNome": "Teclado Gamer", "valorTotal": 250.0 } curl -X POST http://localhost:8080/pedidos -H "Content-Type: application/json" -d '{"clienteNome": "Teclado Gamer", "valorTotal": 250.0}'
 
-🔹 4. Atualizar um Produto 📌 PUT /pedidos/{id} 📌 Body (JSON):
+🔹 4. Atualizar um Pedido 📌 PUT /pedidos/{id} 📌 Body (JSON):
 
 { "clienteNome": "Teclado Mecânico RGB", "valorTotal": 300.0 }
 
 curl -X PUT http://localhost:8080/pedidos/1 -H "Content-Type: application/json" -d '{"clienteNome": "Teclado Mecânico RGB", "valorTotal": 300.0}'
 
-🔹 5. Excluir um Produto 📌 DELETE /pedidos/{id}
+🔹 5. Excluir um Pedido 📌 DELETE /pedidos/{id}
 
 curl -X DELETE http://localhost:8080/pedidos/1
 
