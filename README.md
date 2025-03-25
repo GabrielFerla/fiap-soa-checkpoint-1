@@ -40,22 +40,22 @@ SELECT * FROM pedidos; 👨‍🏫 Sobre o Projeto Este projeto faz parte das au
 
 # listagem dos pedidos 
 
-![Listagem dos Pedidos](.img\list.png)
+![Listagem dos Pedidos](img/list.png)
 
 # Adicionar pedidos
 
-![Adicionar Pedidos](img\add.png)
+![Adicionar Pedidos](img/add.png)
 
 # Pegar um pedido
 
-![Pegar 1 Pedidos](img\get1.png)
+![Pegar 1 Pedidos](img/get1.png)
 
 # Update um pedido
 
-![Atualizar 1 pedido](img\update.png)
+![Atualizar 1 pedido](img/update.png)
 
 # Deletar um pedido
 
-![Deletar 1 pedido](img\delete.png)
+![Deletar 1 pedido](img/delete.png)
 
 
