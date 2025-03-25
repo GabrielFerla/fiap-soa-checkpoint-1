@@ -40,7 +40,7 @@ SELECT * FROM pedidos; 👨‍🏫 Sobre o Projeto Este projeto faz parte das au
 
 # listagem dos pedidos 
 
-![Listagem dos Pedidos](img\list.png)
+![Listagem dos Pedidos](.img\list.png)
 
 # Adicionar pedidos
 
